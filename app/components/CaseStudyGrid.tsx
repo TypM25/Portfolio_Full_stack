@@ -15,10 +15,10 @@ export default function CaseStudyGrid() {
     return () => io.disconnect();
   }, []);
   const projects = [
-    { name: "University Simulation Website", note: "Roles: Student/Teacher/Admin, chat & grading", image: "/university.png" },
-    { name: "Iron QC App (Electron.js)", note: "Arduino test rig, pass/fail analytics", image: "/iron.png" },
-    { name: "QC Dashboard", note: "Factory quality control visualization", image: "/dashboard.png" },
-    { name: "Bank Dashboard Website", note: "Deposit data per user with filters", image: "/bank.png" },
+    { name: "University Simulation Website", note: "Role-based web app with React, Node.js, and PostgreSQL. Features user management, grading system, and Docker deployment.", image: "/university.png" },
+    { name: "Iron QC App (Electron.js)", note: "Electron desktop app with Arduino sensors for quality control. Features real-time monitoring and pass/fail analytics.", image: "/iron.png" },
+    { name: "QC Dashboard", note: "Quality control dashboard with filtering, search, and analytics for production monitoring.", image: "/dashboard.png" },
+    { name: "Bank Dashboard Website", note: "Web dashboard for user deposit data visualization with filtering and search functionality.", image: "/bank.png" },
   ];
   return (
     <div ref={ref} className={`mt-10 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
