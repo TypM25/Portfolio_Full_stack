@@ -17,8 +17,13 @@ export default function ExperienceList() {
   const data = [
     {
       title: "NU Robot Club",
-      desc: "Organized Science Fair, mentored juniors in robotics demos.",
+      desc: "Organized Science Fair, mentored juniors in robotics demonstrations.",
       years: "2023–2024",
+    },
+    {
+      title: "AWS AI First Executive Forum 2026",
+      desc: "Learned about practical AI applications and AI training techniques used by leading companies to improve work efficiency and productivity.",
+      years: "2026",
     },
   ];
 

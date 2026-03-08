@@ -11,22 +11,22 @@ export default function Hero() {
           </h1>
           <p className="text-xl md:text-2xl">Full‑Stack Developer</p>
           <p className="text-zinc-600 md:text-xl max-w-[520px]">
-            Computer Engineering student with hands‑on experience in full‑stack web development and IoT projects. Proficient in React, Next.js, Node.js, and PostgreSQL.
+            Computer Engineering student with hands-on experience in full-stack web development and IoT projects. Responsible, hardworking, and passionate about continuous self-development. Open to learning and adopting new tools and technologies to improve efficiency and deliver high-quality results.
           </p>
-          
+
           <Space wrap>
             <Button type="primary" shape="round" className="h-11 px-6 text-base md:text-lg">
               Build dashboards and robust APIs
-             
-            
+
+
             </Button>
             <Button shape="round" className="h-11 px-6 text-base md:text-lg">
-               Solve problems with clean UX
+              Solve problems with clean UX
             </Button>
-             <Button shape="round" className="h-11 px-6 text-base md:text-lg">
-               Teamwork, critical thinking, and adaptability
+            <Button shape="round" className="h-11 px-6 text-base md:text-lg">
+              Teamwork, critical thinking, and adaptability
             </Button>
-              
+
           </Space>
         </Space>
       </Col>

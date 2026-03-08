@@ -19,13 +19,10 @@ function AboutCard() {
         </div>
         <div className="flex flex-col justify-center">
           <h3 className="text-2xl md:text-3xl font-semibold mt-0">
-            Who am I?
+            My personal motto
           </h3>
           <p className="text-base md:text-lg">
-            I’m a Computer Engineering student (2022–2025) at Naresuan
-            University with experience across React, Next.js, Node.js (Express),
-            PostgreSQL, Electron.js, and Arduino. I focus on clean UX, reliable
-            backend services, and practical IoT integrations.
+            Mistakes are not something to be ashamed of, but valuable learning opportunities. I am always ready to embrace challenges and learn from setbacks to grow into a more skilled and capable professional.
           </p>
         </div>
       </div>
@@ -35,17 +32,16 @@ function AboutCard() {
 
 export function SkillsScroll() {
   const skills: Record<string, string[]> = {
-    Languages: ["JavaScript", "TypeScript", "Python", "Java", "C", "C++", "C#"],
-    "Frameworks & Libraries": ["React", "Next.js", "Node.js (Express.js)", "Sequelize ORM", "MUI", "TailwindCSS", "Bootstrap"],
-    Database: ["PostgreSQL"],
-    "DevOps & Tools": ["Git", "Docker", "Postman", "Figma"],
-    Others: ["Electron.js", "C# (WPF)", "Arduino"],
+    "Programming Languages": ["JavaScript", "TypeScript", "Python", "Java", "C", "C++", "C#"],
+    "Frameworks & Libraries": ["React", "Next.js", "Node.js (Express.js)", "NestJS", "Electron.js", "MUI", "Tailwind CSS", "Bootstrap", "Ant Design"],
+    "Database & ORM": ["PostgreSQL", "Sequelize ORM", "TypeORM"],
+    "Tools & Technologies": ["Git", "Docker", "Postman", "Figma", "Arduino"],
   };
 
   return (
     <div className="mt-2">
       <h3 className="text-2xl md:text-3xl font-semibold">Skills</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 snap-x snap-mandatory py-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 py-2">
         {Object.entries(skills).map(([group, items]) => (
           <div key={group} className="min-w-[280px] snap-start">
             <Card
